@@ -56,7 +56,7 @@ Coming Soon!
 
 ## Basic Example
 
-###Document reader/writer
+### Excel File Handling 
 ```java
 import org.apache.poi.ss.usermodel.Cell;
 import za.co.silversurge.dataprocessing.ExcelFile;
