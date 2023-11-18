@@ -5,18 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b472e69-3cd6-4059-a981-6fb6c37bd8c4" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/ExcelFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/ExcelOnRowCreateListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/annotations/BooleanValueMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/annotations/ColorFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/annotations/ColumnTotal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/annotations/CurrencyFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/annotations/ExcelColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/annotations/ExcelCompatible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/annotations/ExcelIntegerValueMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/annotations/ExcelLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/annotations/Formula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/annotations/Qualifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/annotations/SheetFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/annotations/StringMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/annotations/Style.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/annotations/Validation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/readers/FileProgressHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,12 +56,20 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/matrix/IdeaProjects/dataprocessing/src/main/java/za/co/silversurge/dataprocessing",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "vcs.Git",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="za.co.silversurge.dataprocessing" />
     </key>
@@ -53,8 +82,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700310692155</updated>
-      <workItem from="1700310693158" duration="86000" />
+      <workItem from="1700310693158" duration="3562000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1700310886198</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700310886198</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,5 +101,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/silversurge/dataprocessing/ExcelFile.java</url>
+          <line>370</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
