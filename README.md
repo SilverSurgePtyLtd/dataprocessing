@@ -76,8 +76,6 @@ public class DocumentExcel extends ExcelFile<Document> {
 
     @Override
     protected void processCell(Document document, String s, Cell cell) throws EOFException {
-        @Override
-    protected void processCell(StudentPayment payment, String name, Cell cell) {
         if(cell == null)
             return;
         try {
